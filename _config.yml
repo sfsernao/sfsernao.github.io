@@ -22,12 +22,12 @@ author: CHIRP Group
 # --- List of links in the navigation bar --- #
 ###############################################
 
-#navbar-links:
-#  About Us: "/assets/html/aboutus.html"
-#  Publications:
-#    - FROM 2025: "https://beautifuljekyll.com"
-#    - 2024 - 2002: "https://www.markdowntutorial.com/"
-#  Investigation: "https://deanattali.com"
+navbar-links:
+  About Us: /aboutus/about.html
+  Publications:
+    - FROM 2025: "https://beautifuljekyll.com"
+    - 2024 - 2002: "https://www.markdowntutorial.com/"
+
 
 ################
 # --- Logo --- #

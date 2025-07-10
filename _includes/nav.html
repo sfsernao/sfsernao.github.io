@@ -10,8 +10,10 @@
 
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
+      <!-- Navigation with HRML -->
+       <!-- 
       <li class="nav-item dropdown">
-        <a class="nav-link" href="{% site aboutus.html %}">About Us</a>
+        <a class="nav-link" href="">About Us</a>
       </li>
       <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications</a>
@@ -20,9 +22,9 @@
                 <a class="dropdown-item" href="">2024 - 2023</a>
             </div>
       </li>
-
-      <!-- Navigation links -->
-      <!--
+      -->
+      <!-- Navigation links with navbar-links -->
+      
       {%- for link in site.navbar-links -%}
         {%- if link[1].first %}
           <li class="nav-item dropdown">
@@ -41,7 +43,7 @@
           </li>
         {%- endif -%}
       {%- endfor -%}
-      -->
+      
       <!-- Search a post -->
       {% if site.post_search %}
         <li class="nav-item">
