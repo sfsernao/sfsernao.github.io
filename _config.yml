@@ -25,7 +25,7 @@ author: CHIRP Group
 navbar-links:
   About Us: /aboutus/about.html
   Publications:
-    - FROM 2025: /_layouts/post.html
+    - FROM 2025: /posts/2025.html
     - 2024 - 2002: "https://www.markdowntutorial.com/"
 
 
