@@ -26,15 +26,23 @@ common-js:
 {% include head.html %}
 
 <body>
-  {% include gtm_body.html %}
+{% include gtm_body.html %}
 
+{% include nav_bar.html %}  <!-- This runs no matter what -->
+
+{% if site.use_new_nav %}
+  {% include nav_bar.html %}
+{% else %}
   {% include nav.html %}
+{% endif %}
 
-  {{ content }}
 
-  {% include footer.html %}
 
-  {% include footer-scripts.html %}
+{{ content }}
+
+{% include footer.html %}
+
+{% include footer-scripts.html %}
 
 </body>
 </html>
