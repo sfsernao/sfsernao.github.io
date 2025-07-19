@@ -11,7 +11,7 @@
 
 # Name of website
 title: CHIRP
-use_new_nav: true
+#use_new_nav: true
 
 # Image to show in the title of the website
 title-img: "/assets/img/navbar_chirp.png"
@@ -22,18 +22,14 @@ author: CHIRP Group
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
-
-
 navbar-links:
-  Home: /
-  About Us:
-    Mission: /aboutus/mission.html
-    Team: /aboutus/team.html
-  Publications: /publications/index.html
-  Projects:
-    Ongoing: /projects/ongoing.html
-    Completed: /projects/completed.html
-
+  About Us: /aboutus/about.html
+  Publications:
+    - FROM 2025: /publications/2025/posts_2025.html
+    - 2024 - 2002: "https://www.markdowntutorial.com/"
+  
+  Tables: /tables/tables.html
+ 
 #  About Us: /aboutus/about.html
  # Publications:#
   #  - FROM 2025: /publications/2025/posts_2025.html#
