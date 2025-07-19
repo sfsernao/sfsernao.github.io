@@ -27,12 +27,13 @@ common-js:
 
 <body>
   {% include gtm_body.html %}
+  {% include nav_bar.html %}
 
-  {% if site.use_new_nav %}
+<!--  {% if site.use_new_nav %}
     {% include nav_bar.html %}
   {% else %}
     {% include nav.html %}
-  {% endif %}
+  {% endif %}-->
 
   {{ content }}
 

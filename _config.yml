@@ -11,7 +11,7 @@
 
 # Name of website
 title: CHIRP
-use_new_nav: true
+#use_new_nav: true
 
 # Image to show in the title of the website
 title-img: "/assets/img/navbar_chirp.png"
