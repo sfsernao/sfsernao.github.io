@@ -21,16 +21,15 @@ author: CHIRP Group
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
-use_new_nav: true
 
 navbar-links:
-  About Us: /aboutus/about.html
-  Publications:
-    - FROM 2025: /publications/2025/posts_2025.html
-    - 2024 - 2002: "https://www.markdowntutorial.com/"
+
   Navbar Demo: /navbar/nav_bar.html
-
-
+ 
+#  About Us: /aboutus/about.html
+ # Publications:#
+  #  - FROM 2025: /publications/2025/posts_2025.html#
+   # - 2024 - 2002: "https://www.markdowntutorial.com/"#
 ################
 # --- Logo --- #
 ################
