@@ -27,6 +27,7 @@ navbar-links:
   Publications:
     - FROM 2025: /publications/2025/posts_2025.html
     - 2024 - 2002: "https://www.markdowntutorial.com/"
+  Navbar Demo: /navbar/nav_bar.html
 
 
 ################
