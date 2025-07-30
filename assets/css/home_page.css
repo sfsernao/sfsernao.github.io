@@ -1,8 +1,8 @@
 .carousel {
-  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
   overflow: hidden;
   background-size: cover;
   background-position: center;
@@ -15,6 +15,7 @@
   display: flex;
   padding: 0;
   width: 100%;
+  
 }
 
 .carousel li {
@@ -25,9 +26,8 @@
 
 .carousel ul li img {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: block;
-  object-fit: cover;
 }
 
 .chirp-logo {
@@ -35,7 +35,7 @@
   border-radius: 8px;
 }
 
-/*@keyframes slide {
+@keyframes slide {
   0% {margin-left: 0%;}
   20% {margin-left: 0%;}
 
@@ -44,4 +44,4 @@
 
   50% {margin-left: -200%;}
   70% {margin-left: -200%}
-}*/
+}
