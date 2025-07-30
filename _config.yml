@@ -25,9 +25,11 @@ author: CHIRP Group
 navbar-links:
   Home: /Home/home.html
   About Us: /aboutus/about.html
+  Tables: /tables_page/tables.html
   Publications:
     - FROM 2025: /publications/2025/posts_2025.html
     - 2024 - 2002: "https://www.markdowntutorial.com/"
+<<<<<<< HEAD
   Projects: /projects/project.html
   Tables: /tables/tables.html
  
@@ -35,6 +37,12 @@ navbar-links:
  # Publications:#
   #  - FROM 2025: /publications/2025/posts_2025.html#
    # - 2024 - 2002: "https://www.markdowntutorial.com/"#
+=======
+  
+  
+
+
+>>>>>>> 6dd47b316c60ec31631d89b3a1ac24bea53879b8
 ################
 # --- Logo --- #
 ################
