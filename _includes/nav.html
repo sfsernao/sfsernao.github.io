@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
 
   {%- if site.title-img -%}
-    <a class="navbar-brand navbar-brand-logo" href="{{ '/' | absolute_url }}"><img src="/assets/img/navbar_chirp.png" alt=""></a>
+    <a class="navbar-brand navbar-brand-logo" href="{{ '/' | absolute_url }}"><img src="{{ site.title-img | relative_url }}" alt=""></a>
   {%- endif -%}
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,7 +11,7 @@
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
       <!-- Navigation with HRML -->
-       <!-- 
+       <!--
       <li class="nav-item dropdown">
         <a class="nav-link" href="">About Us</a>
       </li>
@@ -24,7 +24,7 @@
       </li>
       -->
       <!-- Navigation links with navbar-links -->
-      
+
       {%- for link in site.navbar-links -%}
         {%- if link[1].first %}
           <li class="nav-item dropdown">
@@ -43,7 +43,7 @@
           </li>
         {%- endif -%}
       {%- endfor -%}
-      
+
       <!-- Search a post -->
       {% if site.post_search %}
         <li class="nav-item">
